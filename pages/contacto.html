@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,83 +7,110 @@
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <!--Encabezado de la Página Contacto-->
     <header>
         <a href="../index.html"><img src="../images/logo_blanco_cuadrado.png" width="250px" alt="Logo de McDonald's Pileta de Cheddar"></a>
         <h1>Pileta de Cheddar</h1>
         <p>¡Una mini pelopincho con mucho, muchísimo cheddar, che!</p>
     </header>
+    <!--Sección Principal de la Página Contacto--> 
     <main>
+        <!--Sección: Formulario de Contacto--> 
         <section>
             <h2>Contacto</h2>
             <p>¡Si tenés alguna duda o sugerencia no dudes en ponerte en contacto con nosotros, che!</p>
             <fieldset>
-                <form action="validar.php" method="post"></form>
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <br>
-                    <input type="text" name="nombre" id="nombre">
-                </div>
-                <div>
-                    <label for="apellido">Apellido</label>
-                    <br>
-                    <input type="text" name="apellido" id="apellido">
-                </div>
-                <div>
-                    <label for="email">E-mail</label></div>
-                    <input type="email" name="email" id="email">
-                <div>
-                    <label for="telefono">Teléfono</label></div>
-                    <input type="tel" name="telefono" id="telefono">
-                <div>
-                    <label for="ciudad">Ciudad</label>
-                    <br>
-                    <input type="text" name="" id="">
-                </div>
-                <div>
-                    <label for="provincia">Provincia</label>
-                    <br>
-                    <input type="text" name="" id="">
-                </div>
-                <div>
-                    <label for="asunto">Asunto</label>
-                    <br>
-                    <select name="asunto" id="asunto">
-                        <option value="">Elegir</option>
-                        <option value="comentario">Cosulta</option>
-                        <option value="critica">Crítica</option>
-                        <option value="sugerencia">Sugerencia</option>
-                        <option value="reclamo">Reclamo</option>
-                        <option value="otro">Otro</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="mensaje">Mensaje</label>
-                    <br>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="6"></textarea>
-                </div>
-                <div>
-                    <input type="checkbox" name="noticias" id="noticias">
-                    <label for="noticias">Acepto recibir noticias y promociones de McDonald's Argentina</label></div>
-                <div>
-                    <input type="checkbox" name="privacidad" id="privacidad">
-                    <label for="privacidad">Acepto la <a href="https://www.mcdonalds.com.ar/politica-de-privacidad" target="_blank">Política de Privacidad</a></label></div>
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
+                <form action="validar.php" method="post">
+                    <!--Campo del Nombre-->
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <br>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <!--Campo del Apellido-->
+                    <div>
+                        <label for="apellido">Apellido</label>
+                        <br>
+                        <input type="text" name="apellido" id="apellido">
+                    </div>
+                    <!--Campo del E-mail-->
+                    <div>
+                        <label for="email">E-mail</label>
+                        <br>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <!--Campo del Teléfono-->
+                    <div>
+                        <label for="telefono">Teléfono</label>
+                        <br>
+                        <input type="tel" name="telefono" id="telefono">
+                    </div>
+                    <!--Campo de la Ciudad-->
+                    <div>
+                        <label for="ciudad">Ciudad</label>
+                        <br>
+                        <input type="text" name="" id="">
+                    </div>
+                    <!--Campo de la Provincia-->
+                    <div>
+                        <label for="provincia">Provincia</label>
+                        <br>
+                        <input type="text" name="" id="">
+                    </div>
+                    <!--Campo del Asunto-->
+                    <div>
+                        <label for="asunto">Asunto</label>
+                        <br>
+                        <select name="asunto" id="asunto">
+                            <option value="">Elegir</option>
+                            <option value="comentario">Consulta</option>
+                            <option value="critica">Crítica</option>
+                            <option value="sugerencia">Sugerencia</option>
+                            <option value="reclamo">Reclamo</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <!--Campo del Mensaje-->
+                    <div>
+                        <label for="mensaje">Mensaje</label>
+                        <br>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="6"></textarea>
+                    </div>
+                    <!--Campo de Aceptación de Noticias y Promociones-->
+                    <div>
+                        <input type="checkbox" name="noticias" id="noticias">
+                        <label for="noticias">Acepto recibir noticias y promociones de McDonald's Argentina</label>
+                    </div>
+                    <!--Campo de Aceptación de Política de Privacidad-->
+                    <div>
+                        <input type="checkbox" name="privacidad" id="privacidad">
+                        <label for="privacidad">Acepto la <a href="https://www.mcdonalds.com.ar/politica-de-privacidad" target="_blank">Política de Privacidad</a></label>
+                    </div>
+                    <!--Botón de Enviar Datos del Formulario-->
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
             </fieldset>
         </section>
     </main>
+    <!--Pié de Página-->
     <footer>
-         <ul>
-            <li><a href="https://www.mcdonalds.com.ar/nosotros/arcos-dorados" target="_blank">Arcos Dorados</a></li>
-            <li><a href="https://recetadelfuturo.com/" target="_blank">Receta del Futuro</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
+        <!--Links de Interés-->
+        <div>
+            <ul>
+                <li><a href="https://www.mcdonalds.com.ar/nosotros/arcos-dorados" target="_blank">Arcos Dorados</a></li>
+                <li><a href="https://recetadelfuturo.com/" target="_blank">Receta del Futuro</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <!--Links de Descarga de la Aplicación de McDonald's (Android-iOS Apple)-->
         <div>
             <h3>Descargá la app</h3>
             <a href="https://play.google.com/store/apps/details?id=com.mcdo.mcdonalds&hl=es_AR" target="_blank"><img src="../images/google_play.png" alt="Disponible en Google Play"></a>
             <a href="https://apps.apple.com/ar/app/mcdonalds-app/id1114009187" target="_blank"><img src="../images/app_store.png" alt="Disponible en App Store"></a>
         </div>
+        <!--Créditos-->
         <div>
             <img src="../images/mcdonalds-logo-footer-bg-white.png" width="80px" alt="Logo McDonald's amarillo">
             <p>©McDonald's Argentina 2023</p>
