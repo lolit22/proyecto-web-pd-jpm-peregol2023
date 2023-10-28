@@ -25,3 +25,52 @@ image, iframe{
     max-width: 100%;
     height: auto;
 }
+
+/*Estilos del header*/
+.encabezado{
+    border:5px solid red;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/background_encabezado.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-height: 450px;
+}
+
+.encabezado__logo{
+    width: 160px;
+    margin: 165px 45px 10px 0px;
+}
+
+.encabezado__eslogan{
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.encabezado__eslogan___titulo{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: -18px;
+}
+
+.encabezado__eslogan___parrafo{
+    font-size: 2.35rem;
+    margin-bottom: 60px;
+}
+
+/*Estilos del main*/
+.principal{
+    border:5px solid blue;
+    width: 65%;
+}
+
+/*Estilos del footer*/
+.pie-pagina{
+    border:5px solid green;
+    width: 100%;
+}
