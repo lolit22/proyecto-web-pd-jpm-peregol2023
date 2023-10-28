@@ -1,11 +1,11 @@
-/*Reseteo del Navegador Web*/
+/* Reseteo del Navegador Web */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*Reseteo Selectores de Etiquetas*/
+/* Reseteo Selectores de Etiquetas */
 body{
     background-color: #ffb900;
     color: #000000;
@@ -18,7 +18,7 @@ ul, ol{
 
 a{
     color: inherit;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 image, iframe{
@@ -26,7 +26,7 @@ image, iframe{
     height: auto;
 }
 
-/*Estilos del header*/
+/* Estilos del header */
 .encabezado{
     border:5px solid red;
     width:100%;
@@ -51,22 +51,59 @@ image, iframe{
     text-align: center;
 }
 
-.encabezado__eslogan___titulo{
+.encabezado__eslogan-titulo{
     font-size: 3.5rem;
-    text-transform: uppercase;
     margin-top: 10px;
-    margin-bottom: -18px;
+    margin-bottom: -8px;
 }
 
-.encabezado__eslogan___parrafo{
-    font-size: 2.35rem;
+.encabezado__eslogan-parrafo{
+    font-size: 1.8rem;
     margin-bottom: 60px;
 }
 
-/*Estilos del main*/
+/* Estilos del main */
 .principal{
     border:5px solid blue;
-    width: 65%;
+    width: 50%;
+    margin:0 auto;
+}
+
+/* Sección 1: LinkTree de McDonald's Argentina */
+.s1-linktree{
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.s1-linktree__lista{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    list-style-type: none;
+}
+
+.s1-linktree__lista-item{
+    background-color: #462a19;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    /* color: #ffffff; */
+    color: #ffb900;
+    letter-spacing: 0.2rem;
+}
+
+.s1-linktree__lista-enlace{
+    display: block;
+    padding: 1.2rem;
+}
+
+.s1-linktree__lista-item :hover{
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    /* color: #ffb900; */
+    color: #ffffff;
+    letter-spacing: 0.2rem;
 }
 
 /*Estilos del footer*/
