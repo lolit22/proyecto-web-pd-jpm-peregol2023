@@ -104,7 +104,6 @@ img, video, iframe{
     padding: 1.2rem;
 }
 
-
 /*Estilos Sección 2: Video de Pileta de Cheddar incrustado*/
 .s2-video__contenedor{
     display: flex;
@@ -114,7 +113,7 @@ img, video, iframe{
 }
 
 .s2-video__iframe{
-    width: 67%;
+    width: 560px;
     height: 315px;
     margin: 1.5rem 0;
 }
