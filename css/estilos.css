@@ -28,7 +28,7 @@ img, video, iframe{
 
 /* Estilos del header */
 .encabezado{
-    border:5px solid red;
+    /* border:5px solid red; */
     width:100%;
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@ img, video, iframe{
 
 /* Estilos del main */
 .principal{
-    border:5px solid blue;
+    /* border:5px solid blue; */
     width: 50%;
     margin:0 auto;
 }
@@ -84,10 +84,17 @@ img, video, iframe{
 
 .s1-linktree__lista-item{
     background-color: #462a19;
-    border-radius: 2rem;
-    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
     font-weight: 400;
-    /* color: #ffffff; */
+    color: #ffffff;
+    letter-spacing: 0.2rem;
+}
+
+.s1-linktree__lista-item :hover{
+    border:3px solid #462a19;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
     color: #ffb900;
     letter-spacing: 0.2rem;
 }
@@ -97,14 +104,6 @@ img, video, iframe{
     padding: 1.2rem;
 }
 
-.s1-linktree__lista-item :hover{
-    border-radius: 2rem;
-    font-size: 1.3rem;
-    font-weight: 700;
-    /* color: #ffb900; */
-    color: #ffffff;
-    letter-spacing: 0.2rem;
-}
 
 /*Estilos Sección 2: Video de Pileta de Cheddar incrustado*/
 .s2-video__contenedor{
@@ -118,6 +117,53 @@ img, video, iframe{
     width: 67%;
     height: 315px;
     margin: 1.5rem 0;
+}
+
+/*Estilos Sección 3: Nuevo producto Bacon McMELTy Membresía VIP Automac*/
+
+.s3-tarjetas__lista{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+}
+.s3-tarjetas__lista-item{
+    width: 365px;
+    height: 398px;
+    border-top: 2px solid #462a19;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.s3-tarjeta__lista-imagen{
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.s3-tarjetas__lista-enlace{
+    background-color: #462a19;
+    font-size: 1rem;
+    color:#ffffff;
+    padding: 0.5rem 1.7rem;
+    border-radius: 0.5rem;
+}
+
+.s3-tarjetas__lista-enlace:hover{
+    /* background-color: #ffb900; */
+    font-size: 1.15rem;
+    color:#ffb900;
+    padding: 0.5rem 1.5rem;
+}
+
+.s3-tarjeta__lista-titulo{
+    font-size: 1.45rem;
+    margin: 0.2rem;
+}
+
+.s3-tarjeta__lista-parrafo{
+    padding: 0.6rem;
 }
 
 /*Estilos Sección 4: Banner Cajita Feliz - Trailer Película 'The Marvels'*/
@@ -134,14 +180,14 @@ img, video, iframe{
 
 /*Estilos del footer*/
 .pie-pagina{
-    border:5px solid green;
+    /* border:5px solid green; */
     background-color: #ffffff;
     display: flex;
     justify-content: center;
 }
 
 .pie-pagina__contenedor{
-    border: 5px solid #640080;
+    /* border: 5px solid #640080; */
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -150,7 +196,8 @@ img, video, iframe{
 .pie-pagina__links{
     display: flex;
     justify-content: space-between;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .pie-pagina__lista{
@@ -162,12 +209,12 @@ img, video, iframe{
 }
 
 .pie-pagina__item{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .pie-pagina__item:hover{
     color:#ffb900;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 
@@ -182,7 +229,7 @@ img, video, iframe{
 }
 
 .descargas__titulo{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .descargas__enlace img{
@@ -198,10 +245,11 @@ img, video, iframe{
 
 .creditos__logo{
     width: 5rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: -0.5rem;
 }
 
 .creditos__parrafo{
-    margin-bottom: 0.8rem;
+    font-size: 0.8rem;
+    margin-bottom: 1.3rem;
 }
