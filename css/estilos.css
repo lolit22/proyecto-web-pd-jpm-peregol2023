@@ -69,7 +69,7 @@ image, iframe{
     margin:0 auto;
 }
 
-/* Sección 1: LinkTree de McDonald's Argentina */
+/* Estilos Sección 1: LinkTree de McDonald's Argentina */
 .s1-linktree{
     text-align: center;
     padding: 1.5rem 0;
@@ -104,6 +104,20 @@ image, iframe{
     /* color: #ffb900; */
     color: #ffffff;
     letter-spacing: 0.2rem;
+}
+
+/*Estilos Sección 2: Video de Pileta de Cheddar incrustado*/
+.s2-video__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s2-video__iframe{
+    width: 67%;
+    height: 315px;
+    margin: 1.5rem 0;
 }
 
 /*Estilos del footer*/
