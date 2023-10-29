@@ -135,5 +135,73 @@ img, video, iframe{
 /*Estilos del footer*/
 .pie-pagina{
     border:5px solid green;
-    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.pie-pagina__contenedor{
+    border: 5px solid #640080;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pie-pagina__links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.pie-pagina__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    gap:1.5rem;
+}
+
+.pie-pagina__item{
+    font-size: 1.2rem;
+}
+
+.pie-pagina__item:hover{
+    color:#ffb900;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.pie-pagina__descargas{
+    display: flex;
+    flex-direction: row;
+}
+
+.descargas__contenedor{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.descargas__titulo{
+    font-size: 1.2rem;
+}
+
+.descargas__enlace img{
+    width: 110px;
+}
+
+.pie-pagina__creditos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.creditos__logo{
+    width: 5rem;
+    margin-top: 2rem;
+    margin-bottom: -0.5rem;
+}
+
+.creditos__parrafo{
+    margin-bottom: 0.8rem;
 }
