@@ -21,7 +21,7 @@ a{
     text-decoration: none;
 }
 
-image, iframe{
+img, video, iframe{
     max-width: 100%;
     height: auto;
 }
@@ -118,6 +118,18 @@ image, iframe{
     width: 67%;
     height: 315px;
     margin: 1.5rem 0;
+}
+
+/*Estilos Sección 4: Banner Cajita Feliz - Trailer Película 'The Marvels'*/
+.s4-banner__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s4-banner__enlace{
+    margin:1.5rem 0;
 }
 
 /*Estilos del footer*/
